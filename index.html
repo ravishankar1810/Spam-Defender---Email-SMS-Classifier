@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Defender - Email & SMS Classifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Spam_Email-SMS_Classifier.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li class="active" data-tab="email"><i class="fas fa-envelope"></i> Email</li>
+                <li data-tab="sms"><i class="fas fa-sms"></i> SMS</li>
+            </ul>
+        </nav>
+        
+        <div class="content-area">
+            <h1 id="classifier-title">Spam Email Classifier</h1>
+            <div class="input-container">
+                <textarea id="textInput" placeholder="Enter your email content here..."></textarea>
+                <div class="char-counter">Characters: <span id="charCount">0</span></div>
+            </div>
+            
+            <button onclick="classifyText()"><i class="fas fa-search"></i> Classify</button>
+            
+            <div id="result-container">
+                <div id="result-box">
+                    <p id="result"></p>
+                    <div class="loader" id="loader" style="display: none;">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+                
+                <div id="details" style="display: none;">
+                    <div class="confidence-bar-container">
+                        <p id="confidence"></p>
+                        <div class="confidence-bar">
+                            <div id="confidence-fill"></div>
+                        </div>
+                    </div>
+                    <div class="details-panel">
+                        <div class="details-header">Processing Details</div>
+                        <p id="processed-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Spam Defender &copy; 2025</p>
+        </footer>
+    </div>
+    <script src="Spam_Email-SMS_Classifier.js"></script>
+</body>
+</html>
