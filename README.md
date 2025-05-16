@@ -29,33 +29,33 @@ Spam Defender is a simple web-based application that classifies email and SMS co
 
 1. Clone the Repository
 
-git clone https://github.com/ravishankar1810/Spam-Defender---Email-SMS-Classifier.git
-cd spam-defender
+`git clone https://github.com/ravishankar1810/Spam-Defender---Email-SMS-Classifier.git`
+`cd spam-defender`
 
 2. Install Dependencies
    
 Make sure you have Python installed. Then install Flask (and any other libraries you’ve used):
 
-pip install flask
+`pip install flask`
 If you used a model, add its dependencies here (e.g., scikit-learn, nltk, etc.)
 
 3. Run the App
 
-python app.py
+`python app.py`
 
 4. Open in Browser
    
-Visit: http://localhost:5000
+Visit: `http://localhost:5000`
 
 ---
 
 ## 📁 Project Structure
-
-├── `app.py`                          # Backend Flask application 
-├── `index.html`                      # Main HTML frontend      
-├── `Spam_Email-SMS_Classifier.css`   # Styling  
-├── `Spam_Email-SMS_Classifier.js`    # Frontend logic
-
+```
+├── app.py                          # Backend Flask application 
+├── index.html                      # Main HTML frontend      
+├── Spam_Email-SMS_Classifier.css   # Styling  
+├── Spam_Email-SMS_Classifier.js    # Frontend logic
+```
 ---
 
 ## 📸 Screenshots
