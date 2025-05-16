@@ -37,6 +37,7 @@ Spam Defender is a simple web-based application that classifies email and SMS co
 Make sure you have Python installed. Then install Flask (and any other libraries you’ve used):
 
 `pip install flask`
+
 If you used a model, add its dependencies here (e.g., scikit-learn, nltk, etc.)
 
 3. Run the App
@@ -65,11 +66,12 @@ Visit: `http://localhost:5000`
 ---
 ## 📌 Future Improvements
 
-Add login and history feature for users
+- Add login and history feature for users
 
-Deploy model using cloud services
+- Deploy model using cloud services
 
-Improve classification accuracy with advanced NLP techniques
+- Improve classification accuracy with advanced NLP techniques
+
 ---
 ## 🙌 Credits
 
