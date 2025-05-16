@@ -77,4 +77,5 @@ Visit: `http://localhost:5000`
 
 Developed by **Ravi** **Shankar** – [ravishanka1819@gmail.com]
 Made with ❤️ for educational/demo purposes.
+
 ---
